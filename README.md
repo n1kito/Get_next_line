@@ -33,25 +33,22 @@ char	*get_next_line(int fd);
 
 # Notes
 
-I made two videos on this project :
+I made two videos on this project.
 
-<table>
-<tbody>
-  <tr style="border:none;">
-    <td style="border:none; text-align: center;"></td>
-    <td style="border:none; text-align: center;"></td>
-    <td style="border:none; text-align: center;"></td>
-    <td style="border:none; text-align: center;"><a href="https://www.youtube.com/watch?v=-Mt2FdJjVno">
-<img src="img/yt-tbn.png" alt="coder get_next_line" width="50%"><br>
+## Understanding get_next_line
+<p align="center">
+<br>
+<a href="https://www.youtube.com/watch?v=-Mt2FdJjVno">
+<img src="img/yt-tbn.png" alt="coder get_next_line" width="300px"><br>
 (understanding get_next_line)
-</a><br><i>english subtitles</i></td>
-    <td style="border:none; text-align: center;"><a href="https://www.youtube.com/watch?v=xZKeh2mYv0Y">
-<img src="img/yt-tbn2.png" alt="coder get_next_line" width="50%"><br>
+</a><br><i>english subtitles</i><br>
+</p>
+
+## Coding get_next_line
+<p align="center">
+<br>
+<a href="https://www.youtube.com/watch?v=xZKeh2mYv0Y">
+<img src="img/yt-tbn2.png" alt="coder get_next_line" width="300px"><br>
 (coding get_next_line)
-</a><br><i>subtitles to come</i></td>
-    <td style="border:none; text-align: center;"></td>
-    <td style="border:none; text-align: center;"></td>
-    <td style="border:none; text-align: center;"></td>
-  </tr>
-</tbody>
-</table>
+</a><br><i>subtitles to come</i>
+</p>
