@@ -1,2 +1,57 @@
 # Get_next_line
 My work on the 42 get_next_line project.
+
+The aim of this project is to make you code a function that returns a line,
+read from a file descriptor.
+
+This project will not only allow you to add a very convenient function to your collection,
+but it will also allow you to learn a highly interesting new concept in C programming:
+static variables.
+
+### Function Prototype
+
+```c
+char	*get_next_line(int fd);
+```
+
+### Return value
+
+| Value | Description         |
+ |-----------|----------------------|
+|  Read line| correct behavior |
+|  NULL| nothing else to read or an error has occured |
+
+### Functions Used
+
+**External Functions**
+
+| Function | Description         |
+ |-----------|----------------------|
+|  read() | A line has been read |
+|  malloc() | EOF has been reached |
+|  free() | An error happened |
+
+# Notes
+
+I made two videos on this project :
+
+<table>
+<tbody>
+  <tr style="border:none;">
+    <td style="border:none; text-align: center;"></td>
+    <td style="border:none; text-align: center;"></td>
+    <td style="border:none; text-align: center;"></td>
+    <td style="border:none; text-align: center;"><a href="https://www.youtube.com/watch?v=-Mt2FdJjVno">
+<img src="img/yt-tbn.png" alt="coder get_next_line" width="50%"><br>
+(understanding get_next_line)
+</a><br><i>english subtitles</i></td>
+    <td style="border:none; text-align: center;"><a href="https://www.youtube.com/watch?v=xZKeh2mYv0Y">
+<img src="img/yt-tbn2.png" alt="coder get_next_line" width="50%"><br>
+(coding get_next_line)
+</a><br><i>subtitles to come</i></td>
+    <td style="border:none; text-align: center;"></td>
+    <td style="border:none; text-align: center;"></td>
+    <td style="border:none; text-align: center;"></td>
+  </tr>
+</tbody>
+</table>
