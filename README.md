@@ -35,7 +35,7 @@ char	*get_next_line(int fd);
 
 I made two videos on this project.
 
-## Understanding get_next_line
+## understanding get_next_line
 <p align="center">
 <br>
 <a href="https://www.youtube.com/watch?v=-Mt2FdJjVno">
@@ -44,7 +44,7 @@ I made two videos on this project.
 </a><br><i>english subtitles</i><br>
 </p>
 
-## Coding get_next_line
+## coding get_next_line
 <p align="center">
 <br>
 <a href="https://www.youtube.com/watch?v=xZKeh2mYv0Y">
