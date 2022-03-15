@@ -33,7 +33,7 @@ char	*get_next_line(int fd);
 
 # Bonus
 
-I made two videos on this project.
+I made two videos about this project!
 
 ## understanding get_next_line
 <p align="center">
