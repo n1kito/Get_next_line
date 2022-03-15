@@ -31,7 +31,7 @@ char	*get_next_line(int fd);
 |  malloc() | EOF has been reached |
 |  free() | An error happened |
 
-# Notes
+# Bonus
 
 I made two videos on this project.
 
