@@ -1,5 +1,5 @@
 # Get_next_line
-My work on the 42 get_next_line project.
+My work on the 42 get_next_line project (here without the bonus part).
 
 The aim of this project is to make you code a function that returns a line,
 read from a file descriptor.
