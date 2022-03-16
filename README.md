@@ -33,8 +33,7 @@ char	*get_next_line(int fd);
 
 # Notes
 
-I wrote this code to be as easy to understand as possible because it was coded for a video tutorial.  
-This explains why I left some comments inside the main function.
+I wrote this code to be as easy to understand as possible because it was coded for a video tutorial, which explains why I left some comments inside the main function.
 
 # Bonus
 
