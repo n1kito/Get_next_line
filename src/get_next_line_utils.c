@@ -1,10 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nikito                                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/16 07:57:36 by nikito            #+#    #+#             */
+/*   Updated: 2022/03/16 07:58:49 by mjallada         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/get_next_line.h"
 
 /* Looks for a newline character in the given linked list. */
 
-int found_newline(t_list *stash)
+int	found_newline(t_list *stash)
 {
-	int 	i;
+	int		i;
 	t_list	*current;
 
 	if (stash == NULL)
@@ -32,13 +44,13 @@ t_list	*ft_lst_get_last(t_list *stash)
 	return (current);
 }
 
-/* Calculates the number of chars in the current line,
- * including the trailing \n if there is one, and allocates memory accordingly. */
+/* Calculates the number of chars in the current line, including the trailing
+ * \n if there is one, and allocates memory accordingly. */
 
 void	generate_line(char **line, t_list *stash)
 {
-	int i;
-	int len;
+	int	i;
+	int	len;
 
 	len = 0;
 	while (stash)
@@ -49,7 +61,7 @@ void	generate_line(char **line, t_list *stash)
 			if (stash->content[i] == '\n')
 			{
 				len++;
-				break;
+				break ;
 			}
 			len++;
 			i++;
@@ -76,9 +88,9 @@ void	free_stash(t_list *stash)
 	}
 }
 
-int ft_strlen(const char *str)
+int	ft_strlen(const char *str)
 {
-	int len;
+	int	len;
 
 	len = 0;
 	while (*(str++))
