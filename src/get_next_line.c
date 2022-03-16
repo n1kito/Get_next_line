@@ -4,14 +4,12 @@ char *get_next_line(int fd)
 {
 	static t_list	*stash = NULL;
 	char 			*line;
-	int 			readed;
 
 	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, &line, 0) < 0)
 		return (NULL);
-	readed = 1;
 	line = NULL;
 	// 1. read from fd and add to linked list
-	read_and_stash(fd, &stash, &readed);
+	read_and_stash(fd, &stash);
 	if (stash == NULL)
 		return (NULL);
 	// 2. extract from stash to line
@@ -30,23 +28,25 @@ char *get_next_line(int fd)
 
 /* Uses read() to add characters to the stash */
 
-void	read_and_stash(int fd, t_list **stash, int *readed_ptr)
+void	read_and_stash(int fd, t_list **stash)
 {
 	char	*buf;
+	int 	readed;
 
-	while (!found_newline(*stash) && *readed_ptr != 0)
+	readed = 1;
+	while (!found_newline(*stash) && readed != 0)
 	{
 		buf = malloc(sizeof(char) * (BUFFER_SIZE + 1));
 		if (buf == NULL)
 			return;
-		*readed_ptr = (int)read(fd, buf, BUFFER_SIZE);
-		if ((*stash == NULL && *readed_ptr == 0) || *readed_ptr == -1)
+		readed = (int)read(fd, buf, BUFFER_SIZE);
+		if ((*stash == NULL && readed == 0) || readed == -1)
 		{
 			free(buf);
 			return;
 		}
-		buf[*readed_ptr] = '\0';
-		add_to_stash(stash, buf, *readed_ptr);
+		buf[readed] = '\0';
+		add_to_stash(stash, buf, readed);
 		free(buf);
 	}
 }

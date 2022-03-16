@@ -6,7 +6,7 @@ int	main()
 	int 	fd;
 	char	*line;
 
-	fd = open("tests/simple", O_RDONLY);
+	fd = open("tests/two_lines_with_nl", O_RDONLY);
 	while (1)
 	{
 		line = get_next_line(fd);
