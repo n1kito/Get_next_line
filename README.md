@@ -42,7 +42,7 @@ I made two videos about this project!
 ## understanding get_next_line
 <p align="center">
 <br>
-<a href="https://youtu.be/-Mt2FdJjVno">
+<a href="https://youtu.be/-Mt2FdJjVno" target="_blank">
 <img src="img/yt-tbn.png" alt="coder get_next_line" width="300px"><br>
 (understanding get_next_line)
 </a><br><i>english subtitles</i><br>
@@ -51,7 +51,7 @@ I made two videos about this project!
 ## coding get_next_line
 <p align="center">
 <br>
-<a href="https://youtu.be/xgDSXNOHTIA">
+<a href="https://youtu.be/xgDSXNOHTIA" target="_blank">
 <img src="img/yt-tbn2.png" alt="coder get_next_line" width="300px"><br>
 (coding get_next_line)
 </a><br><i>subtitles to come</i>
